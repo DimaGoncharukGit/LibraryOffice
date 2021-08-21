@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"  android:layout_height="wrap_content"
+    android:background="@drawable/bg_dialog">
+    <TextView
+        android:id="@+id/text_view_dialog"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/impact2"
+        android:text="Add Book Page"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/editText_dialog_title"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_edit_text"
+        android:ems="10"
+        android:fontFamily="@font/impact2"
+        android:hint="Title"
+        android:textColorHint="@color/cardview_shadow_start_color"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/editText_dialog_number_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_edit_text"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:fontFamily="@font/impact2"
+        android:hint="Number id"
+        android:textColorHint="@color/cardview_shadow_start_color"
+        android:inputType="number"
+        android:padding="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categoryes"
+            android:textSize="20sp"
+            android:fontFamily="@font/impact2"
+            android:layout_marginStart="10dp" />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_gravity="center" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/button_custom_add_book"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_edit_text"
+        android:fontFamily="@font/impact2"
+        android:text="@string/menu_add_book"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/button_custom_clothe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_edit_text"
+        android:fontFamily="@font/impact2"
+        android:text="Exit"
+        android:padding="10dp" />
+</LinearLayout>

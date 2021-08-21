@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "92549807367",
+    "project_id": "libraryoffice-7b2bf",
+    "storage_bucket": "libraryoffice-7b2bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92549807367:android:c0127c5eec7cbdb5f899a2",
+        "android_client_info": {
+          "package_name": "com.example.libraryoffice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92549807367-b9jgn26g8ulqvfr18o76lb1i23sliv9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKIjW_ZNKouE_RoyfbdedWoeSHthr854o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92549807367-b9jgn26g8ulqvfr18o76lb1i23sliv9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

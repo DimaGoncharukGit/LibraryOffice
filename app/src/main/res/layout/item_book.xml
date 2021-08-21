@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginEnd="10dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="5dp"
+    android:padding="7dp"
+    android:clickable="true"
+    android:background="@drawable/bg_edit_text"
+    android:orientation="vertical"
+    android:focusable="true">
+
+    <TextView
+        android:id="@+id/text_title_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_id_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number id"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_status_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+</LinearLayout>
+
